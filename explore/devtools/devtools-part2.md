@@ -1,0 +1,2 @@
+1. `num1` and `num2` have the wrong data type - they are string instead of integer. This is because the function read them straight from the input without casting them.
+2. I would fix it by wrapping `num1` and `num2` with `Number(num1)` and `Number(num2)` to make sure they are the right type.
