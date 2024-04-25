@@ -1,6 +1,6 @@
 For the answer below, if it's just a simple value then it implies the value is being printed during function call. If I put an error then it means such error happened during function call, if question asked what the function returns then that value will be the value that function returned.
 
-2. `values added:  20`
+1. `values added:  20`
 2. `final result:  20`
 3. `values added:  20`
 4. `ReferenceError: result is not defined`, this is because line 13 tries to access the `let` variable `result` outside of its defined block scope.
